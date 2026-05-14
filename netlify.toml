@@ -1,0 +1,18 @@
+# Raiz publicada: pasta public/ (HTML na raiz do deploy + assets/).
+[build]
+  publish = "public"
+
+[[redirects]]
+  from = "/marketing"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/suporte"
+  to = "/suporte.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacidade"
+  to = "/privacidade.html"
+  status = 200

@@ -1,0 +1,9 @@
+{
+  "name": "metis-landing",
+  "private": true,
+  "description": "Landing e páginas legais do Metis (site estático)",
+  "scripts": {
+    "start": "npx --yes serve public -l 4173",
+    "serve": "npx --yes serve public"
+  }
+}
