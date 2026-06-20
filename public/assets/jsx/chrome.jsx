@@ -98,7 +98,7 @@ function Footer() {
             <ul>
               <li><a href={L.privacy}>{t("foot.legal.privacy")}</a></li>
               <li><a href={L.privacyOpts}>{t("foot.legal.privacyopts")}</a></li>
-              <li><a href="#">{t("foot.legal.terms")}</a></li>
+              <li><a href={L.terms}>{t("foot.legal.terms")}</a></li>
               <li><a href="#">{t("foot.legal.cookies")}</a></li>
             </ul>
           </div>
